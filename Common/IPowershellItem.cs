@@ -5,6 +5,7 @@ namespace  Common
 {
     public interface IPowershellItem
     {
+        //
         // this property wiil be used as the target identifier in the Update and Delete Methods
         string IdentifierProperty { get; set; }
         //this method will return the string of the update method of the Powershell Item
